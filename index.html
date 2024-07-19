@@ -483,8 +483,29 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-email-sbscr">Subscribe</p>
+          <form class="sbscr-form">
+            <label for="email" class="subscribe-label">
+              <input
+                type="email"
+                name="mail"
+                placeholder="E-mail"
+                id="mail"
+                class="fter-email"
+              />
+            </label>
+            <button type="submit" class="subscribe-img">
+              Subscribe
+              <svg class="send" width="24" height="24">
+                <use href="./images/symbol-defs.icon.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-close-btn">
@@ -504,7 +525,7 @@
                 type="text"
               />
               <svg class="svg-form" width="18" height="24">
-                <use href="./images/symbol-defs.icon.svg#icon-person"></use>
+                <use href="./images/symbol-defs.icon.svg#icon-pers"></use>
               </svg>
             </div>
           </div>
@@ -513,7 +534,7 @@
             <div class="only-name">
               <input class="input-form" name="phone" id="phone" type="tel" />
               <svg class="svg-form" width="18" height="24">
-                <use href="./images/symbol-defs.icon.svg#icon-telephone"></use>
+                <use href="./images/symbol-defs.icon.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -528,8 +549,32 @@
           </div>
           <div class="comment-cont">
             <label for="users-comm" class="label-text">Comment</label>
-            <textarea name="" id="" class=""></textarea>
+            <textarea
+              name="users-comm"
+              id="users-comm"
+              placeholder="Text input"
+              class="textarea-form"
+            ></textarea>
           </div>
+          <div class="comment-cont">
+            <input
+              type="checkbox"
+              name="accept"
+              id="accept"
+              value="true"
+              class="modal-check hidden"
+            />
+            <label for="accept" class="modal-check-text"
+              ><span class="span-check">
+                <svg class="" width="10" height="8">
+                  <use href="./images/symbol-defs.icon.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href class="privacy">Privacy Polici</a>
+            </label>
+          </div>
+          <button type="submit" class="btn-send">Send</button>
         </form>
       </div>
     </div>
