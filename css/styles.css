@@ -581,6 +581,9 @@ input:focus + svg {
   fill: #4d5ae5;
 }
 .comment-cont {
+  margin-bottom: 16px;
+}
+.comment-class {
   margin-bottom: 24px;
 }
 .textarea-form {
